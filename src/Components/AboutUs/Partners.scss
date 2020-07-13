@@ -1,0 +1,36 @@
+.partners-container{
+    background-color: black;;
+    clip-path: polygon(0 0, 100% 0, 100% 76%, 0% 100%);
+    .partners-row{
+        width: 100%;
+    }
+    P{
+        color: white;
+        &:nth-child(1){
+            font-size: 77px;
+            font-weight: 600;
+            margin-top: 40px;
+            margin-bottom: 0;
+        }
+        &:nth-child(2){
+            font-size: 20px;
+            font-weight: 100;
+        }
+    }
+    button{
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+    }
+    .partners-row{
+        margin-top: 60px;
+    }
+    .slant{
+        width: 100%;
+        p{
+            color: white;
+            font-size: 100px;
+            font-weight: 400;
+        }
+    }
+}

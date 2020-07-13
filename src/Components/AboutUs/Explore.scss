@@ -1,0 +1,39 @@
+.Explore-container{
+    background: url('../../Resources/Images/ExploreBackgroundImage.png') scroll no-repeat;
+    height: 86vh;
+    text-align: center;
+    margin-top: -282px;
+    clip-path: polygon(0 27%, 100% 12%, 100% 100%, 0% 100%);
+    //background-image: linear-gradient(160deg,url('../../Resources/Images/ExploreBackgroundImage.png')  77%, #F4F4F4 calc(77% + 2px));
+    p{
+        color: black;
+        font-size: 100px;
+        font-weight: 400;
+        position: relative;
+        top: 110px;
+        left: 0px;
+        z-index: 99;
+    }
+    .subheader-row{
+        p{
+            margin-top: -30px;
+            font-size: 18px;
+        }
+    }
+    .logos{
+        margin-top: 110px;
+       
+        img{
+            width: 62px;
+            height: 68px;
+        }
+    }
+    button{
+        margin-top: 10px;
+        background-color: transparent;
+        border: 1px solid black;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

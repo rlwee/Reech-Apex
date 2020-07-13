@@ -3,6 +3,7 @@ import './AboutApex.scss'
 
 import '../../Resources/Fonts/Florsn37.ttf';
 import ApexLogo from '../../Resources/Images/ApexLogo.png';
+import ApexText from '../../Resources/Images/apexText.png';
 
 const AboutApex = () => {
     return (
@@ -10,10 +11,11 @@ const AboutApex = () => {
             <div className="row justify-content-center rowie">
                 <div className="col-lg-6 left-content">
                     <div className="row">
-                        <div className="col-lg-2">
-                            <p className="rotate">
+                        <div className="col-lg-2 ">
+                            {/* <p className="rotate">
                                 APEX
-                            </p>
+                            </p> */}
+                            <img src={ApexText} alt="rotatedText" className="apext-text-image"/>
                         </div>
                         <div className="col-lg-7 offset-lg-2">
                             <img src={ApexLogo} alt="ApexLogo"/>

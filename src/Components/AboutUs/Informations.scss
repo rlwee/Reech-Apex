@@ -1,0 +1,44 @@
+.information-container{
+    background-color: black;
+    p{
+        color: white;
+    }
+    .header{
+        font-size: 68px;
+        font-weight: 500;
+        margin-top: 50px;
+    }
+    .subheader{
+        font-size: 20px;
+        margin-top: -30px;
+        font-weight: 300;
+    }
+    button{
+        font-size: 20px;
+        border: 1px solid white;
+        background-color: transparent;
+        color: white;
+        padding: 3px 10px 3px 10px;
+    }
+    .left-information{
+        background: url('../../Resources/Images/ynotFeature.png') scroll no-repeat;
+        height: 425px;
+        margin-right: 80px;
+    }
+    .right-information{
+        background: url('../../Resources/Images/informationImage.png') scroll no-repeat;
+        z-index: 10;
+        background-color: rgba(22, 22, 22, 0.5);
+        background-blend-mode: multiply;
+        height: 334px;
+        text-align: center;
+        p{
+            color: white;   
+            margin-top: 170px;
+            z-index: 11;
+        }
+        button{
+            font-size: 20px;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.shop-preview-container{
+    background: url('../../Resources/Images/ShopImageBackground.png') scroll no-repeat;
+    clip-path: polygon(0 33.6%, 100% 7.5%, 100% 100%, 0% 100%);
+    height: 76vh;
+    text-align: center;
+    margin-top: -262px;
+    p{
+        color: black;
+        font-size: 100px;
+        font-weight: 400;
+        position: relative;
+        top: 100px;
+        left: -15px;
+        z-index: 99;
+    }
+    .shop-details{
+        p{
+            font-size: 18px;
+            margin-top: -30px;
+        }
+    }
+    button{
+        margin-top: 100px;
+        font-size: 20px;
+        background-color: transparent;
+        border: 1px solid black;
+    }
+}

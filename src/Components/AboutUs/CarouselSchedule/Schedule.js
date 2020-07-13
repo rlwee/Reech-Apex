@@ -38,7 +38,7 @@ const showFirstSchedules = (schedule) => {
                     />
                 </div>
                 <div className="col-lg-3" style={{textAlign:"center", marginTop:"30px"}}>
-                    <p className="match">{schedule.gameMatch}</p>
+                    <p className="match">GAME {schedule.gameMatch}</p>
                     <p>VS</p>
                 </div>
                 <div className="col-lg-4">
@@ -76,7 +76,7 @@ const showSecondSchedules = (schedule) => {
                     />
                 </div>
                 <div className="col-lg-3" style={{textAlign:"center", marginTop:"30px"}}>
-                    <p className="match">{schedule.gameMatch}</p>
+                    <p className="match">GAME {schedule.gameMatch}</p>
                     <p>VS</p>
                 </div>
                 <div className="col-lg-4">
@@ -114,7 +114,7 @@ const showThirdSchedules = (schedule) => {
                     />
                 </div>
                 <div className="col-lg-3" style={{textAlign:"center", marginTop:"30px"}}>
-                    <p className="match">{schedule.gameMatch}</p>
+                    <p className="match">GAME {schedule.gameMatch}</p>
                     <p>VS</p>
                 </div>
                 <div className="col-lg-4">

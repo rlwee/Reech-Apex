@@ -11,12 +11,15 @@ const Schedule = () => {
         <div className="container-fluid schedule-container">
             <div className="row header-row">
                 <div className="col-lg-5 offset-lg-2">
-                  <p>WITNESS GREATNESS</p>
+                  <p className="witness">WITNESS GREATNESS</p>
                   <p>CHECK OUT OUR SCHEDULE</p>
                 </div>
             </div>
             <div className="row justify-content-center schedule-row">
                 <CarouselSchedule />
+            </div>
+            <div className="row justify-content-center slant">
+                <p>LOREM IPSUM</p>
             </div>
         </div>
     );

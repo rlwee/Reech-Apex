@@ -1,7 +1,8 @@
 .schedule-container{
     background-color: black;
-
-    .header-row{
+    background-image: linear-gradient(176deg, black 76.5%, white calc(76.5% + 2px));
+    
+   .header-row{
         padding-top: 80px;
         p{
             color: white;
@@ -9,6 +10,17 @@
             &:nth-child(2){
                 font-size: 55px;
             }
+        }
+        .witness{
+            margin: 0;
+            line-height: 5px;
+        }
+    }
+    .slant{
+        p{
+            color: white;
+            font-size: 100px;
+            font-weight: 400;
         }
     }
 }

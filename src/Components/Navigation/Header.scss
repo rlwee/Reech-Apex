@@ -1,7 +1,9 @@
 header{
+    position: fixed;
     background-image: linear-gradient(rgb(0, 0, 0), #490000);
     padding: 50px auto;
     height: 73px;
+    z-index: 999;
     .logo-container{
         position: absolute;
         width: 100px;
