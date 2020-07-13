@@ -1,0 +1,56 @@
+.carrousel-wrapper-schedules{
+    width: 70%;
+    .box-container-col{
+        border: 1px solid #DAB765;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        margin: auto;
+        .GameType{
+            width: 65px;
+            height: 65px;
+        }
+        .Apex-team{
+            width: 65px;
+            height: 65px;
+            margin-top: 20px;
+        }
+        p{
+            color: white;
+            font-size: 10px;
+            font-weight: 500;
+            margin: 0;
+            line-height: 20px;
+            &:nth-child(2){
+                font-size: 20px;
+                min-width: max-content;
+            }
+            &:nth-child(3){
+                font-size: 15px;
+            }
+        }
+        .match{
+            font-size: 15px;
+        }
+    }
+}
+.slick-dots {
+    bottom: -60px;
+    li button:before,
+    li.slick-active button:before {
+      color: transparent;
+      opacity: 1;
+    }
+    li button:before{
+      background-color: transparent;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      display: inline-block;
+      height: 10px;
+      width: 10px;
+  
+    }
+    li.slick-active button:before {
+      background-color: #fff;
+    }
+  }

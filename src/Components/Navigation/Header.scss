@@ -1,0 +1,81 @@
+header{
+    background-image: linear-gradient(rgb(0, 0, 0), #490000);
+    padding: 50px auto;
+    height: 73px;
+    .logo-container{
+        position: absolute;
+        width: 100px;
+        height: 73px;
+        background-image: linear-gradient(rgb(0, 0, 0), #490000);
+        z-index: 1;
+        border: 1px solid #DAB765;
+        border-image: linear-gradient(10deg, #DAB765, rgb(0, 0, 0)) 1;
+        &::before{
+            content: "";
+            position: absolute;
+            top: -28.8675px;
+            left: 0;
+            width: 0;
+            height: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 28.8675px solid #490000;
+        }
+        &::after{
+            content: "";
+            position: absolute;
+            bottom: -28.8675px;
+            left: 0;
+            width: 0;
+            height: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-top: 28.8675px solid #490000;
+        }
+        .left-horizontal{
+            position: absolute;
+            top: 68.5px;
+            left: -3px;
+            border-bottom: 1px solid #DAB765;
+            width: 56.5px;
+            transform: rotate(30deg);
+            z-index: 1;
+        }
+        .right-horizontal{
+            position: absolute;
+            top: 68.5px;
+            right: -5px;
+            border-bottom: 1px solid #DAB765;
+            width: 58px;
+            transform: rotate(148deg);
+            z-index: 1;
+        }
+        .logo{
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            width: 70px;
+            height: 70px;
+            z-index: 2;
+        }
+    }
+    .links{
+        font-size: 20px;
+        padding: 0;
+        text-align: center;
+        p{
+            margin: 30px auto 0px auto ;
+            padding-bottom: 10px;
+            color: white;
+            font-weight: 600;
+            &:hover{
+                cursor: pointer;
+                color: #DAB765;
+            }
+        }
+        &:hover{
+            border-bottom: 5px solid #DAB765;
+            color: #DAB765;
+        }
+    }
+}

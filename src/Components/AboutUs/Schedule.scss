@@ -1,0 +1,14 @@
+.schedule-container{
+    background-color: black;
+
+    .header-row{
+        padding-top: 80px;
+        p{
+            color: white;
+            font-size: 25px;
+            &:nth-child(2){
+                font-size: 55px;
+            }
+        }
+    }
+}

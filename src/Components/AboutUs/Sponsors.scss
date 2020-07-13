@@ -1,0 +1,17 @@
+.sponsors-container{
+    padding: 10px 0 10px 0;
+    background-color: black;
+
+    .sponsor-row{
+        width: 100%;
+    }
+    .sponsorships-columns{
+        text-align: center;
+        &:nth-child(2){
+            margin-top: 35px;
+        }
+        &:nth-child(3){
+            margin-top: 35px;
+        }
+    }
+}

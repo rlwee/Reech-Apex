@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Florencesans;
+    src: local('Florencesans'), url(../../Resources/Fonts/Florsn39.ttf)  format('truetype');
+}
+.About-Apex-Container{
+    .left-content{
+        height: 66vh;
+        box-shadow: inset 0px 31px 30px -10px #CCC, inset 0px -31px 30px -10px #CCC; 
+        .rotate{
+            font-family: Florencesans;
+            font-size: 225px;
+            font-weight: 100;
+            opacity: 0.3;
+            position: relative;
+            top: -85px;
+            left: -2px;
+            transform: rotate(-270deg);
+        }
+        p{
+            font-size: 61px;
+            margin: 0;
+            font-weight: 500;
+            &:nth-child(2){
+                color: black;
+            }
+            &:nth-child(3){
+                color: #490000;
+            }
+            &:nth-child(4){
+                font-size: 17px;
+            }
+        }
+        img{
+            width: 100px;
+            height: 100px;
+            margin-top: 30px;
+        }
+        button{
+            font-size: 20px;
+            background-color: transparent;
+            margin-top: 10px;
+        }
+    }
+    .right-content{
+        background: url('../../Resources/Images/AboutApexImage.png') scroll no-repeat;
+    }
+    
+}

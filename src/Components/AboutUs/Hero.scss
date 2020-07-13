@@ -1,0 +1,18 @@
+.hero-container{
+    background: url('../../Resources/Images/AboutUsHero.png') scroll no-repeat;
+    height: 88vh;
+    padding-top: 350px;
+    .hero-row{
+        text-align: center;
+        p{
+            color: white;
+            margin: 0;
+            font-size: 90px;
+            font-weight: 600;
+            &:nth-child(2){
+                font-size: 27px;
+                font-weight: 300;
+            }
+        }
+    }
+}
