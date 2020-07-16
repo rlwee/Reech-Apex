@@ -17,7 +17,7 @@ const AboutApex = () => {
                             </p> */}
                             <img src={ApexText} alt="rotatedText" className="apext-text-image"/>
                         </div>
-                        <div className="col-lg-7 offset-lg-2">
+                        <div className="col-lg-7 offset-lg-2 apex-intro">
                             <img src={ApexLogo} alt="ApexLogo"/>
                             <p>THIS IS</p>
                             <p>REECH APEX</p>

@@ -15,18 +15,18 @@ import FnaticLogo from '../../../Resources/Images/FnaticLogo.png';
 import MobileLegendsMPL from '../../../Resources/Images/MobileLegendsMPL.png';
 
 
-const showFirstSchedules = (schedule) => {
-    return schedule.map(schedule => (
-        <div key={schedule} className="col-lg-3  box-container-col">
+const showFirstSchedules = (firstBatch) => {
+    return firstBatch.map(scheduleOne => (
+        <div key={scheduleOne.id} className="col-lg-3  box-container-col">
             <div className="row">
                 <div className="col-lg-3">
-                    <img className="GameType" src={schedule.GameType} alt="MPL Season"/>
+                    <img className="GameType" src={scheduleOne.GameType} alt="MPL Season"/>
                     
                 </div>
                 <div className="col-lg-7" style={{padding:"0"}}>
-                    <p>{schedule.date}</p>
-                    <p>{schedule.season}</p>
-                    <p>{schedule.event}</p>
+                    <p>{scheduleOne.date}</p>
+                    <p>{scheduleOne.season}</p>
+                    <p>{scheduleOne.event}</p>
                 </div>
             </div>
             <div className="row justify-content-center">
@@ -34,18 +34,18 @@ const showFirstSchedules = (schedule) => {
                     <img
                         className="Apex-team"
                         alt="ApexTeam"
-                        src={schedule.apexLogo}
+                        src={scheduleOne.apexLogo}
                     />
                 </div>
                 <div className="col-lg-3" style={{textAlign:"center", marginTop:"30px"}}>
-                    <p className="match">GAME {schedule.gameMatch}</p>
+                    <p className="match">GAME {scheduleOne.gameMatch}</p>
                     <p>VS</p>
                 </div>
                 <div className="col-lg-4">
                     <img
                         className="Apex-team"
                         alt="OpponentTeam"
-                        src={schedule.OpponentTeam}
+                        src={scheduleOne.OpponentTeam}
                     />
                 </div>
             </div>
@@ -53,18 +53,18 @@ const showFirstSchedules = (schedule) => {
     ))
 }
 
-const showSecondSchedules = (schedule) => {
-    return schedule.map(schedule => (
-        <div key={schedule} className="col-lg-3  box-container-col">
+const showSecondSchedules = (secondBatch) => {
+    return secondBatch.map(scheduleTwo => (
+        <div key={scheduleTwo.id} className="col-lg-3  box-container-col">
             <div className="row">
                 <div className="col-lg-3">
-                    <img className="GameType" src={schedule.GameType} alt="MPL Season"/>
+                    <img className="GameType" src={scheduleTwo.GameType} alt="MPL Season"/>
                     
                 </div>
                 <div className="col-lg-7" style={{padding:"0"}}>
-                    <p>{schedule.date}</p>
-                    <p>{schedule.season}</p>
-                    <p>{schedule.event}</p>
+                    <p>{scheduleTwo.date}</p>
+                    <p>{scheduleTwo.season}</p>
+                    <p>{scheduleTwo.event}</p>
                 </div>
             </div>
             <div className="row justify-content-center">
@@ -72,18 +72,18 @@ const showSecondSchedules = (schedule) => {
                     <img
                         className="Apex-team"
                         alt="ApexTeam"
-                        src={schedule.apexLogo}
+                        src={scheduleTwo.apexLogo}
                     />
                 </div>
                 <div className="col-lg-3" style={{textAlign:"center", marginTop:"30px"}}>
-                    <p className="match">GAME {schedule.gameMatch}</p>
+                    <p className="match">GAME {scheduleTwo.gameMatch}</p>
                     <p>VS</p>
                 </div>
                 <div className="col-lg-4">
                     <img
                         className="Apex-team"
                         alt="OpponentTeam"
-                        src={schedule.OpponentTeam}
+                        src={scheduleTwo.OpponentTeam}
                     />
                 </div>
             </div>
@@ -91,18 +91,18 @@ const showSecondSchedules = (schedule) => {
     ))
 }
 
-const showThirdSchedules = (schedule) => {
-    return schedule.map(schedule => (
-        <div key={schedule} className="col-lg-3  box-container-col">
+const showThirdSchedules = (thirdBatch) => {
+    return thirdBatch.map(scheduleThree => (
+        <div key={scheduleThree.id} className="col-lg-3  box-container-col">
             <div className="row">
                 <div className="col-lg-3">
-                    <img className="GameType" src={schedule.GameType} alt="MPL Season"/>
+                    <img className="GameType" src={scheduleThree.GameType} alt="MPL Season"/>
                     
                 </div>
                 <div className="col-lg-7" style={{padding:"0"}}>
-                    <p>{schedule.date}</p>
-                    <p>{schedule.season}</p>
-                    <p>{schedule.event}</p>
+                    <p>{scheduleThree.date}</p>
+                    <p>{scheduleThree.season}</p>
+                    <p>{scheduleThree.event}</p>
                 </div>
             </div>
             <div className="row justify-content-center">
@@ -110,18 +110,18 @@ const showThirdSchedules = (schedule) => {
                     <img
                         className="Apex-team"
                         alt="ApexTeam"
-                        src={schedule.apexLogo}
+                        src={scheduleThree.apexLogo}
                     />
                 </div>
                 <div className="col-lg-3" style={{textAlign:"center", marginTop:"30px"}}>
-                    <p className="match">GAME {schedule.gameMatch}</p>
+                    <p className="match">GAME {scheduleThree.gameMatch}</p>
                     <p>VS</p>
                 </div>
                 <div className="col-lg-4">
                     <img
                         className="Apex-team"
                         alt="OpponentTeam"
-                        src={schedule.OpponentTeam}
+                        src={scheduleThree.OpponentTeam}
                     />
                 </div>
             </div>
@@ -134,7 +134,7 @@ const Schedule = () => {
         {   
             GameType: MobileLegendsMPL,
             date: '01/01/01',
-            season: 'MPL SEASON 6',
+            season: 'MPL SEASON 10',
             event: 'FINALS (MAIN STAGE)',
             apexLogo: ApexLogo,
             gameMatch: '1',
@@ -152,7 +152,7 @@ const Schedule = () => {
         {
             GameType: MobileLegendsMPL,
             date: '01/01/01',
-            season: 'MPL SEASON 6',
+            season: 'MPL SEASON 12',
             event: 'FINALS (MAIN STAGE)',
             apexLogo: ApexLogo,
             gameMatch: '1',

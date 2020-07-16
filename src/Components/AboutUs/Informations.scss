@@ -1,4 +1,5 @@
 .information-container{
+    height: 76vh;
     background-color: black;
     p{
         color: white;
@@ -19,26 +20,92 @@
         background-color: transparent;
         color: white;
         padding: 3px 10px 3px 10px;
+        &:hover{
+            color: black;
+            border: 1px solid white;
+            background-color: white;
+        }
     }
     .left-information{
         background: url('../../Resources/Images/ynotFeature.png') scroll no-repeat;
-        height: 425px;
         margin-right: 80px;
+        text-align: center;
+        p{
+            color: white;   
+            margin-top: 170px;
+            z-index: 11;
+            visibility: hidden;
+        }
+        button{
+            font-size: 20px;
+            visibility: hidden;
+            &:hover{
+                color: black;
+                background-color: white;
+                outline: none;
+                border: 1px solid white;
+            }
+        }
+        &:hover{
+            background-color: rgba(22, 22, 22, 0.5);
+            background-blend-mode: multiply;
+           p{
+               visibility: visible;
+           }
+           button{
+               visibility: visible;
+           }
+        }
     }
     .right-information{
         background: url('../../Resources/Images/informationImage.png') scroll no-repeat;
         z-index: 10;
-        background-color: rgba(22, 22, 22, 0.5);
-        background-blend-mode: multiply;
+        // background-color: rgba(22, 22, 22, 0.5);
+        // background-blend-mode: multiply;
         height: 334px;
         text-align: center;
         p{
             color: white;   
             margin-top: 170px;
             z-index: 11;
+            visibility: hidden;
         }
         button{
             font-size: 20px;
+            visibility: hidden;
+            &:hover{
+                color: black;
+                background-color: white;
+                outline: none;
+                border: 1px solid white;
+            }
+        }
+        &:hover{
+            background-color: rgba(22, 22, 22, 0.5);
+            background-blend-mode: multiply;
+           p{
+               visibility: visible;
+           }
+           button{
+               visibility: visible;
+           }
         }
     }
+//for mid pc/laptops
+@media (max-width: 1600px){
+    height: 93vh;
+    .header{
+        font-size: 64px;
+        margin-top: 30px;
+    }
+    .subheader{
+        font-size: 18px;
+    }
+    @media (max-width: 1440px){
+
+        @media (max-width: 1280px){
+
+        }
+    }
+}
 }

@@ -1,7 +1,8 @@
 .schedule-container{
     background-color: black;
-    background-image: linear-gradient(176deg, black 76.5%, white calc(76.5% + 2px));
-    
+    //background-image: linear-gradient(176deg, black 76.5%, white calc(76.5% + 2px));
+    //clip-path: polygon(0 33.6%, 100% 7%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 76%, 0% 100%);
    .header-row{
         padding-top: 80px;
         p{
@@ -23,4 +24,40 @@
             font-weight: 400;
         }
     }
+//for mid pc/laptops
+@media (max-width: 1600px){
+    clip-path: polygon(0 0, 100% 0, 100% 73%, 0% 100%);
+    .header-row{
+        padding-top: 60px;
+        p{
+            font-size: 20px;
+            &:nth-child(2){
+                font-size: 46px;
+            }
+        }
+        .witness{
+            line-height: 5px;
+        }
+    }
+    @media (max-width: 1440px){
+        .header-row{
+            p{
+                font-size: 20px;
+                &:nth-child(2){
+                    font-size: 42px;
+                }
+            }
+        }
+        @media (max-width: 1280px){
+            .header-row{
+                p{
+                    font-size: 20px;
+                    &:nth-child(2){
+                        font-size: 38px;
+                    }
+                }
+            }
+        }
+    }
+}
 }

@@ -11,7 +11,7 @@ const ComingSoon = () => {
                     <source src={ApexComingSoonVideo}  type="video/mp4"/>
                 </video>
             </div> */}
-            <video autoPlay muted loop preload>
+            <video autoPlay muted loop preload='true'>
                 <source src={ApexComingSoonVideo}  type="video/mp4"/>
             </video>
             <div className="row justify-content-center Apex-row">

@@ -3,8 +3,7 @@
     height: 86vh;
     text-align: center;
     margin-top: -282px;
-    clip-path: polygon(0 27%, 100% 12%, 100% 100%, 0% 100%);
-    //background-image: linear-gradient(160deg,url('../../Resources/Images/ExploreBackgroundImage.png')  77%, #F4F4F4 calc(77% + 2px));
+    clip-path: polygon(0 25%, 100%  12.5%, 100% 100%, 0% 100%);
     p{
         color: black;
         font-size: 100px;
@@ -34,6 +33,20 @@
         border: 1px solid black;
         &:hover{
             cursor: pointer;
+            border: 1px solid black;
+            color: white;
+            background-color: black;
         }
     }
+//for mid pc/laptops
+@media (max-width: 1600px){
+    height: 110vh;
+    clip-path: polygon(0 28%, 100%  13%, 100% 100%, 0% 100%);
+    @media (max-width: 1440px){
+
+        @media (max-width: 1280px){
+
+         }
+    }
+}
 }

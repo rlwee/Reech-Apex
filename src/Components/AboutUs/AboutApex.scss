@@ -30,6 +30,8 @@
             font-weight: 500;
             &:nth-child(2){
                 color: black;
+                line-height: 25px;
+                margin-top: 40px;
             }
             &:nth-child(3){
                 color: #490000;
@@ -41,16 +43,65 @@
         img{
             width: 100px;
             height: 100px;
-            margin-top: 30px;
+            margin-top: 70px;
         }
         button{
             font-size: 20px;
             background-color: transparent;
             margin-top: 10px;
+            &:hover{
+                background-color: black;
+                border: 1px solid black;
+                color: white;
+            }
         }
     }
     .right-content{
         background: url('../../Resources/Images/AboutApexImage.png') scroll no-repeat;
     }
-    
+//for mid pc/laptops
+@media (max-width: 1600px){
+    .left-content{
+        .apext-text-image{
+            margin-top: 50px;
+            width: 190px;
+            height: 380px;
+        }
+        p{
+            font-size: 55px;
+            &:nth-child(2){
+                line-height: 25px;
+                margin-top: 30px;
+            }
+            &:nth-child(4){
+                font-size: 12px;
+            }
+        }
+        img{
+            width: 90px;
+            height: 90px;
+            margin-top: 70px;
+        }
+        button{
+            font-size: 15px;
+            margin-top: 8px;
+        }
+    }
+    @media (max-width: 1440px){
+        .left-content{
+            img{
+                width: 90px;
+                height: 90px;
+                margin-top: 50px;
+            }
+            .apex-intro{
+                padding-left: 0;
+            }
+        }
+
+        @media (max-width: 1280){
+
+        }
+    }
+}
 }

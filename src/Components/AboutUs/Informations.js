@@ -24,7 +24,12 @@ const Informations = () => {
                 <div className="col-lg-10">
                     <div className="row justify-content-center">
                         <div className="col-lg-5 left-information">
-
+                            <p>
+                                WATCH EVIL GENIUSES AND AMERICA’S NAVY SQUAD UP ON A COMPUTER NEAR YOU
+                            </p>
+                            <button>
+                                READ NEWS
+                            </button>
                         </div>
                         <div className="col-lg-5 right-information">
                             <p>

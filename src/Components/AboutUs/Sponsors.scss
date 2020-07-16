@@ -14,4 +14,47 @@
             margin-top: 35px;
         }
     }
+
+//for laptops and mid pc's
+    @media (max-width: 1600px){
+        .sponsorships-columns{
+            img{
+                width: 210px;
+            }
+            &:nth-child(2){
+                margin-top: 26px;
+                img{
+                    width: 168px;
+                }
+            }
+            &:nth-child(3){
+                margin-top: 25px;
+                img{
+                    width: 243px;
+                }
+            }
+        }
+        @media (max-width: 1440px){
+            .sponsorships-columns{
+                img{
+                    width: 180px;
+                }
+                &:nth-child(2){
+                    margin-top: 26px;
+                    img{
+                        width: 148px;
+                    }
+                }
+                &:nth-child(3){
+                    margin-top: 25px;
+                    img{
+                        width: 223px;
+                    }
+                }
+            }
+            @media (max-width: 1280){
+    
+            }
+        }
+    }
 }
