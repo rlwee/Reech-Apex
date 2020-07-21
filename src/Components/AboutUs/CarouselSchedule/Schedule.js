@@ -17,31 +17,31 @@ import MobileLegendsMPL from '../../../Resources/Images/MobileLegendsMPL.png';
 
 const showFirstSchedules = (firstBatch) => {
     return firstBatch.map(scheduleOne => (
-        <div key={scheduleOne.id} className="col-lg-3  box-container-col">
+        <div key={scheduleOne.id} className="col-3 col-lg-3  box-container-col">
             <div className="row">
-                <div className="col-lg-3">
+                <div className="col-3 col-lg-3">
                     <img className="GameType" src={scheduleOne.GameType} alt="MPL Season"/>
                     
                 </div>
-                <div className="col-lg-7" style={{padding:"0"}}>
+                <div className="col-7 col-lg-7" style={{padding:"0"}}>
                     <p>{scheduleOne.date}</p>
                     <p>{scheduleOne.season}</p>
                     <p>{scheduleOne.event}</p>
                 </div>
             </div>
             <div className="row justify-content-center">
-                <div className="col-lg-4">
+                <div className="col-4 col-lg-4">
                     <img
                         className="Apex-team"
                         alt="ApexTeam"
                         src={scheduleOne.apexLogo}
                     />
                 </div>
-                <div className="col-lg-3" style={{textAlign:"center", marginTop:"30px"}}>
+                <div className="col-3 col-lg-3" style={{textAlign:"center", marginTop:"30px"}}>
                     <p className="match">GAME {scheduleOne.gameMatch}</p>
                     <p>VS</p>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-4 col-lg-4">
                     <img
                         className="Apex-team"
                         alt="OpponentTeam"
@@ -55,31 +55,31 @@ const showFirstSchedules = (firstBatch) => {
 
 const showSecondSchedules = (secondBatch) => {
     return secondBatch.map(scheduleTwo => (
-        <div key={scheduleTwo.id} className="col-lg-3  box-container-col">
+        <div key={scheduleTwo.id} className="col-3 col-lg-3  box-container-col">
             <div className="row">
-                <div className="col-lg-3">
+                <div className="col-3 col-lg-3">
                     <img className="GameType" src={scheduleTwo.GameType} alt="MPL Season"/>
                     
                 </div>
-                <div className="col-lg-7" style={{padding:"0"}}>
+                <div className="col-7 col-lg-7" style={{padding:"0"}}>
                     <p>{scheduleTwo.date}</p>
                     <p>{scheduleTwo.season}</p>
                     <p>{scheduleTwo.event}</p>
                 </div>
             </div>
             <div className="row justify-content-center">
-                <div className="col-lg-4">
+                <div className="col-4 col-lg-4">
                     <img
                         className="Apex-team"
                         alt="ApexTeam"
                         src={scheduleTwo.apexLogo}
                     />
                 </div>
-                <div className="col-lg-3" style={{textAlign:"center", marginTop:"30px"}}>
+                <div className="col-3 col-lg-3" style={{textAlign:"center", marginTop:"30px"}}>
                     <p className="match">GAME {scheduleTwo.gameMatch}</p>
                     <p>VS</p>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-4 col-lg-4">
                     <img
                         className="Apex-team"
                         alt="OpponentTeam"
@@ -93,31 +93,31 @@ const showSecondSchedules = (secondBatch) => {
 
 const showThirdSchedules = (thirdBatch) => {
     return thirdBatch.map(scheduleThree => (
-        <div key={scheduleThree.id} className="col-lg-3  box-container-col">
+        <div key={scheduleThree.id} className="col-3 col-lg-3  box-container-col">
             <div className="row">
-                <div className="col-lg-3">
+                <div className="col-3 col-lg-3">
                     <img className="GameType" src={scheduleThree.GameType} alt="MPL Season"/>
                     
                 </div>
-                <div className="col-lg-7" style={{padding:"0"}}>
+                <div className="col-7 col-lg-7" style={{padding:"0"}}>
                     <p>{scheduleThree.date}</p>
                     <p>{scheduleThree.season}</p>
                     <p>{scheduleThree.event}</p>
                 </div>
             </div>
             <div className="row justify-content-center">
-                <div className="col-lg-4">
+                <div className="col-4 col-lg-4">
                     <img
                         className="Apex-team"
                         alt="ApexTeam"
                         src={scheduleThree.apexLogo}
                     />
                 </div>
-                <div className="col-lg-3" style={{textAlign:"center", marginTop:"30px"}}>
+                <div className="col-3 col-lg-3" style={{textAlign:"center", marginTop:"30px"}}>
                     <p className="match">GAME {scheduleThree.gameMatch}</p>
                     <p>VS</p>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-4 col-lg-4">
                     <img
                         className="Apex-team"
                         alt="OpponentTeam"

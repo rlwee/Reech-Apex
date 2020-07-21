@@ -8,7 +8,7 @@ const Partners = () => {
     return (
         <div className="container-fluid partners-container">
             <div className="row justify-content-center partners-row">
-                <div className="col-lg-4" style={{textAlign:"center"}}>
+                <div className="col-4 col-lg-4" style={{textAlign:"center"}}>
                     <p>
                         OUR PARTNERS
                     </p>
